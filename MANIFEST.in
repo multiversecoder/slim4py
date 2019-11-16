@@ -1,0 +1,3 @@
+prune slim4py.egg-info
+
+include slim4py/slim_compile.rb

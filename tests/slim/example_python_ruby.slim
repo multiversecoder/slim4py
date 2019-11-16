@@ -1,0 +1,19 @@
+/ mako_vars = [list_]
+doctype 5
+html
+  head
+    title Slim4Py Example - Basic
+  body
+    #contents
+      |
+      % for a in list_:
+        % if a.startswith("t"):
+            its two or three
+        % elif a.startswith("f"):
+            four/five
+        % else:
+            one
+        % endif
+      % endfor
+  footer
+    | Copyright - #{author} - #{year}
