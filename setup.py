@@ -1,15 +1,23 @@
 import os
 import sys
 import shutil
+import pathlib
 import setuptools
 import subprocess
 from setuptools import setup
 
+README = f"{pathlib.Path(__file__).parent}/README.md"
+
+with open(README) as r:
+    README = r.read()
+
+
 setup(
     name='slim4py',
-    version='1.0',
+    version='1.0.1',
     author='Adriano Romanazzo (multiversecoder)',
     description='Slim4Py is a tool that allows you to integrate Ruby Slim as a templating engine into any Python framework.',
+    long_description=README,
     install_requires=["mako"],
     packages=['slim4py'],
     package_dir={'slim4py': 'slim4py'},
