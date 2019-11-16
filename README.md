@@ -45,7 +45,7 @@ This comment will be detected by the engine and rendered using mako and python.
 Combining Python With Ruby
 --------------------------
 
-~~~ slim
+``` slim
 / mako_vars = [list_]
 doctype 5
 html
@@ -65,7 +65,7 @@ html
       % endfor
   footer
     | Copyright - #{author} - #{year}
-~~~
+```
 
 
 Requirements
