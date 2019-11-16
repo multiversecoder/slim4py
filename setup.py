@@ -18,6 +18,7 @@ setup(
     author='Adriano Romanazzo (multiversecoder)',
     description='Slim4Py is a tool that allows you to integrate Ruby Slim as a templating engine into any Python framework.',
     long_description=README,
+    long_description_content_type="text/markdown",
     install_requires=["mako"],
     packages=['slim4py'],
     package_dir={'slim4py': 'slim4py'},
