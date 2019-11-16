@@ -8,9 +8,8 @@ Slim is a fast, lightweight templating engine whose goal is reduce html syntax t
 
 Check on the official site: [http://slim-lang.com/](http://slim-lang.com/)
 
-
 What is slim4py?
--------------
+----------------
 
 Slim4Py is a simple script that allows you to use all the functions of Slim (Ruby)
 in any python framework with the addition that you can also use the
@@ -28,7 +27,6 @@ def say_hello():
 
 slim.render("example.slim", say_hello=say_hello, year="2019", author="https://github.com/multiversecoder/slim4py")
 ```
-
 
 About Magic Comments
 --------------------
