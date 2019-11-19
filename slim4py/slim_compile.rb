@@ -1,5 +1,11 @@
 # frozen_string_literal: true
 
+# Author => Adriano Romanazzo
+# Copyright => Copyright 2019, Adriano Romanazzo (https://github.com/multiversecoder)
+# LICENSE => MIT
+# Maintainer => https://github.com/multiversecoder
+# Status => Production
+#
 # This script takes arguments through shells and returns
 # a perfectly rendered template using Ruby and Slim
 #
