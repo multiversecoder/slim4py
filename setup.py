@@ -1,16 +1,10 @@
-import os
-import sys
-import shutil
 import pathlib
-import setuptools
-import subprocess
 from setuptools import setup
 
 README = f"{pathlib.Path(__file__).parent}/README.md"
 
 with open(README) as r:
     README = r.read()
-
 
 setup(
     name='slim4py',
